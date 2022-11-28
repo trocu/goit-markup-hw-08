@@ -1,42 +1,65 @@
-.c-nav {
-  flex-grow: 1;
-}
 .c-menu {
-  @include nodot;
+  display: none;
 }
-.c-menu__item {
-  position: relative;
-  display: inline;
-  &:nth-child(-n + 2) {
-    margin-right: 46px;
+.c-nav {
+  line-height: 0;
+}
+.c-nav__button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  &:hover .c-nav__icon,
+  &:focus .c-nav__icon {
+    fill: $brand-color;
   }
 }
-.c-menu__link {
-  text-decoration: none;
-  color: inherit;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: $brand-color;
-  }
+.c-nav__icon {
+  fill: $black-item;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.c-menu__link--active {
-  color: $brand-color;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    opacity: 1;
-    height: 4px;
-    left: -2px;
-    bottom: -32.5px;
-    border-radius: 10px;
-    background: $brand-color;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
+// .c-nav {
+//   flex-grow: 1;
+// }
+// .c-menu {
+//   @include nodot;
+// }
+// .c-menu__item {
+//   position: relative;
+//   display: inline;
+//   &:nth-child(-n + 2) {
+//     margin-right: 46px;
+//   }
+// }
+// .c-menu__link {
+//   text-decoration: none;
+//   color: inherit;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     color: $brand-color;
+//   }
+// }
+// .c-menu__link--active {
+//   color: $brand-color;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     opacity: 1;
+//     height: 4px;
+//     left: -2px;
+//     bottom: -32.5px;
+//     border-radius: 10px;
+//     background: $brand-color;
+//     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+// }

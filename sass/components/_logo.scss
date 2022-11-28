@@ -2,9 +2,9 @@
   text-decoration: none;
   font-family: Raleway;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  margin-right: 93px;
+  font-size: 24px;
+  line-height: 1.16;
+  margin-right: auto;
 }
 // Header logo
 .c-logo--black {
@@ -20,17 +20,40 @@
   color: $brand-color;
   margin: 0;
 }
-// Footer logo
-.c-logo--footer {
-  display: inline-block;
-  margin-right: 0px;
-  margin-bottom: 20px;
-}
-.c-logo--white {
-  color: $white-item;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .c-logo:focus &,
-  .c-logo:hover & {
-    color: $brand-color;
-  }
-}
+
+// .c-logo {
+//   text-decoration: none;
+//   font-family: Raleway;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 1.19;
+//   margin-right: 93px;
+// }
+// // Header logo
+// .c-logo--black {
+//   color: $black-item;
+//   margin: 0;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .c-logo:focus &,
+//   .c-logo:hover & {
+//     color: $brand-color;
+//   }
+// }
+// .c-logo--brand {
+//   color: $brand-color;
+//   margin: 0;
+// }
+// // Footer logo
+// .c-logo--footer {
+//   display: inline-block;
+//   margin-right: 0px;
+//   margin-bottom: 20px;
+// }
+// .c-logo--white {
+//   color: $white-item;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .c-logo:focus &,
+//   .c-logo:hover & {
+//     color: $brand-color;
+//   }
+// }

@@ -78,6 +78,20 @@
                   >
                 </li>
               </ul>
+              <!-- Menu mobile -->
+              <button
+                class="c-nav__button"
+                type="button"
+              >
+                <svg
+                  class="c-nav__icon"
+                  width="40"
+                  height="40"
+                >
+                  <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+              </button>
+              <!-- Menu mobile END -->
             </nav>
 
             <!-- CONTACT -->
@@ -656,6 +670,66 @@
       </div>
     </footer>
 
+    <!-- =========== -->
+    <!-- Mobile menu-->
+    <!-- =========== -->
+    <div class="c-menu-overlay is-closed">
+      <div class="c-menu-btn">
+        <button
+          class="c-menu-btn__button"
+          type="button"
+        >
+          <svg
+            width="40"
+            height="40"
+          >
+            <use href="./images/icons.svg#icon-close-mobile"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="c-menu-body">
+        <ul class="c-menu-nav">
+          <li class="c-menu-nav__item">
+            <a
+              href="index.html"
+              class="c-menu-nav__link"
+              target="_self"
+              >Agencja</a
+            >
+          </li>
+          <li class="c-menu-nav__item">
+            <a
+              href="#"
+              class="c-menu-nav__link"
+              >Portfolio</a
+            >
+          </li>
+          <li class="c-menu-nav__item">
+            <a
+              href="#"
+              class="c-menu-nav__link"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
+        <ul class="c-menu-contact">
+          <li class="c-menu-contact__item">
+            <a
+              href="tel:+48111111111"
+              class="c-menu-contact__link"
+              >+48 111 111 111</a
+            >
+          </li>
+          <li class="c-menu-contact__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="c-menu-contact__link c-menu-contact__link--small-grey"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- ============ -->
     <!-- Modal window -->
     <!-- ============ -->
@@ -797,6 +871,7 @@
       </div>
     </div>
 
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
