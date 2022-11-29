@@ -10,6 +10,9 @@
 }
 .is-closed {
   transform: translate(100%, 0);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .c-menu-body {
   height: 100vh;

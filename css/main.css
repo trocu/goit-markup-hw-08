@@ -127,6 +127,9 @@ ul {
 .is-closed {
   -webkit-transform: translate(100%, 0);
           transform: translate(100%, 0);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .c-menu-body {
