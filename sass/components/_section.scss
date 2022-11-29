@@ -11,6 +11,15 @@
   background-position: center;
   background-size: cover;
 }
+// Use case section
+.l-section--no-top-padding {
+  display: none;
+  opacity: 0;
+}
+// Team section bkg
+.l-section--color {
+  background-color: $light-item-color;
+}
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .l-section--slider {
     background-image: url("../images/cover-m@2x.jpg"); /* fallback */

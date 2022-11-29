@@ -10,7 +10,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 365px;
+  min-width: 290;
+  max-width: 365px;
   margin: 0px auto 30px;
 }
 // .c-slider {

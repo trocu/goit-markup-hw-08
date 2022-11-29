@@ -50,7 +50,20 @@
               ><span class="c-logo c-logo--brand">Web</span
               ><span class="c-logo c-logo--black">Studio</span></a
             >
-
+            <!-- Menu mobile -->
+            <button
+              class="c-nav__button"
+              type="button"
+            >
+              <svg
+                class="c-nav__icon"
+                width="40"
+                height="40"
+              >
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+            <!-- Menu mobile END -->
             <!-- NAV -->
             <nav class="c-nav">
               <ul class="c-menu">
@@ -78,20 +91,6 @@
                   >
                 </li>
               </ul>
-              <!-- Menu mobile -->
-              <button
-                class="c-nav__button"
-                type="button"
-              >
-                <svg
-                  class="c-nav__icon"
-                  width="40"
-                  height="40"
-                >
-                  <use href="./images/icons.svg#icon-menu"></use>
-                </svg>
-              </button>
-              <!-- Menu mobile END -->
             </nav>
 
             <!-- CONTACT -->
@@ -285,11 +284,28 @@
               <li class="c-team__card">
                 <img
                   class="c-team__img"
-                  src="./images/team1.jpg"
+                  src="./images/team1-m.jpg"
                   alt="Product Designer"
-                  width="270"
-                  height="260"
+                  srcset="./images/team1-m@2x.jpg 2x"
                 />
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="./images/team1-m.jpg 1x, ./images/team1-m@2x.jpg 2x"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="./images/team1-m.jpg 1x, ./images/team1-m@2x.jpg 2x"
+                  />
+                  <source
+                    media="(min-width:320px)"
+                    srcset="./images/team1-m.jpg 1x, ./images/team1-m@2x.jpg 2x"
+                  />
+                  <img
+                    src="./images/team1-m.jpg"
+                    alt=""
+                  />
+                </picture> -->
                 <h3 class="c-team__name">John Doe</h3>
                 <p class="c-team__position">Product Designer</p>
                 <div class="c-social-media">
@@ -674,20 +690,20 @@
     <!-- Mobile menu-->
     <!-- =========== -->
     <div class="c-menu-overlay is-closed">
-      <div class="c-menu-btn">
-        <button
-          class="c-menu-btn__button"
-          type="button"
-        >
-          <svg
-            width="40"
-            height="40"
-          >
-            <use href="./images/icons.svg#icon-close-mobile"></use>
-          </svg>
-        </button>
-      </div>
       <div class="c-menu-body">
+        <div class="c-menu-btn">
+          <button
+            class="c-menu-btn__button"
+            type="button"
+          >
+            <svg
+              width="40"
+              height="40"
+            >
+              <use href="./images/icons.svg#icon-close-mobile"></use>
+            </svg>
+          </button>
+        </div>
         <ul class="c-menu-nav">
           <li class="c-menu-nav__item">
             <a
@@ -723,8 +739,38 @@
           <li class="c-menu-contact__item">
             <a
               href="mailto:info@devstudio.com"
-              class="c-menu-contact__link c-menu-contact__link--small-grey"
+              class="c-menu-contact__link c-menu-contact__link--secondary"
               >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="c-menu-social">
+          <li class="c-menu-social__item">
+            <a
+              href="#"
+              class="c-menu-social__link"
+              >Instagram</a
+            >
+          </li>
+          <li class="c-menu-social__item">
+            <a
+              href="#"
+              class="c-menu-social__link"
+              >Twitter</a
+            >
+          </li>
+          <li class="c-menu-social__item">
+            <a
+              href="#"
+              class="c-menu-social__link"
+              >Facebook</a
+            >
+          </li>
+          <li class="c-menu-social__item c-menu-social__item--unborder">
+            <a
+              href="#"
+              class="c-menu-social__link"
+              >LinkedIn</a
             >
           </li>
         </ul>

@@ -11,6 +11,12 @@
 .is-closed {
   transform: translate(100%, 0);
 }
+.c-menu-body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .c-menu-btn {
   display: flex;
   justify-content: end;
@@ -30,16 +36,12 @@
     fill: $brand-color;
   }
 }
-.c-menu-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .c-menu-nav {
   @include nodot;
+  margin-bottom: auto;
 }
 .c-menu-nav__link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: $primary-color;
   font-weight: 500;
@@ -64,10 +66,38 @@
   font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
-.c-menu-contact__link--small-grey {
-  margin-top: 32px;
+.c-menu-contact__link--secondary {
   color: $light-txt-color;
   font-size: 24px;
   line-height: 1.16;
+  margin-bottom: 65px;
+}
+.c-menu-social {
+  @include nodot;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 48px;
+  padding-right: 83px;
+}
+.c-menu-social__item {
+  display: inline;
+  border-right: 1px solid $mobile-social-border;
+  padding-right: 9px;
+}
+.c-menu-social__item--unborder {
+  margin-right: 0;
+  border-right: none;
+  padding-right: 0;
+}
+.c-menu-social__link {
+  margin: 0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 0.81;
+  letter-spacing: 0.02em;
+  color: $brand-color;
 }

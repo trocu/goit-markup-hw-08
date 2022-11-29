@@ -6,8 +6,7 @@
   @include nodot;
 }
 .c-offer__item {
-  min-width: 450px;
-  flex-basis: calc((100% - 90px) / 4);
+  max-width: 450px;
 }
 .c-offer__body {
   background-color: $light-item-color;
