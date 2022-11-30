@@ -28,7 +28,7 @@
 .c-custom-checkbox__body {
   position: absolute;
   top: 2px;
-  left: 16px;
+  left: 3px;
   width: 16px;
   height: 15px;
   border: 2px solid $primary-color;
@@ -47,14 +47,75 @@
 }
 // Style for the statement section
 .c-custom-checkbox__text {
-  font-size: 14px;
-  line-height: 1.71px;
+  font-size: 12px;
+  line-height: 1.16px;
   letter-spacing: 0.03em;
   color: $light-txt-color;
 }
 .c-custom-checkbox__link {
-  font-size: 14px;
-  line-height: 1.71px;
+  font-size: 12px;
+  line-height: 1.16px;
   letter-spacing: 0.03em;
   color: $brand-color;
 }
+
+// .c-custom-checkbox {
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: baseline;
+//   gap: 5px;
+//   margin-top: 20px;
+//   margin-bottom: 30px;
+// }
+// .c-custom-checkbox__input {
+//   vertical-align: middle;
+//   width: 16px;
+//   height: 15px;
+//   opacity: 0;
+//   // Add brand-color background to the checkbox when checked
+//   &:checked + .c-custom-checkbox__body {
+//     background-color: $brand-color;
+//     border: 2px solid $brand-color;
+//   }
+//   // Add brand-color border to the checkbox when focused
+//   &:focus + .c-custom-checkbox__body {
+//     border-color: $brand-color;
+//     outline: 2px solid rgba(33 150 243 / 0.25);
+//     outline-offset: 1px;
+//   }
+// }
+// // Style for custom checkbox
+// .c-custom-checkbox__body {
+//   position: absolute;
+//   top: 2px;
+//   left: 16px;
+//   width: 16px;
+//   height: 15px;
+//   border: 2px solid $primary-color;
+//   background-color: $white-item;
+//   border-radius: 4px;
+//   cursor: pointer;
+//   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   will-change: border-color;
+// }
+// // Sets the position for the checkmark svg
+// .c-custom-checkbox__icon {
+//   position: absolute;
+//   top: -1px;
+//   left: 0px;
+//   fill: $white-item;
+// }
+// // Style for the statement section
+// .c-custom-checkbox__text {
+//   font-size: 14px;
+//   line-height: 1.71px;
+//   letter-spacing: 0.03em;
+//   color: $light-txt-color;
+// }
+// .c-custom-checkbox__link {
+//   font-size: 14px;
+//   line-height: 1.71px;
+//   letter-spacing: 0.03em;
+//   color: $brand-color;
+// }

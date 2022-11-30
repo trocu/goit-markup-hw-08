@@ -33,6 +33,11 @@
   letter-spacing: 0.03em;
   color: $light-txt-color;
 }
+@media screen and (min-width: $tablet) {
+  .c-offer__item {
+    max-width: 354px;
+  }
+}
 // .c-offer {
 //   display: flex;
 //   flex-wrap: wrap;

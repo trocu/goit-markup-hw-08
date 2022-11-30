@@ -33,5 +33,43 @@
   }
 }
 .c-address__item {
-  margin-top: 9px;
+  margin-top: 8px;
 }
+
+// .c-footer {
+//   &--color {
+//     background: $dark-background;
+//   }
+// }
+// .l-adress-stack {
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+// }
+// .c-address__text {
+//   margin: 0;
+//   font-size: 14px;
+//   font-style: normal;
+//   line-height: 1.71;
+//   letter-spacing: 0.03em;
+//   color: $white-item;
+// }
+// .c-address__list {
+//   @include nodot;
+// }
+// .c-address__link {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.71;
+//   letter-spacing: 0.03em;
+//   color: rgba(255 255 255 / 0.6);
+//   text-decoration: none;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     color: $brand-color;
+//   }
+// }
+// .c-address__item {
+//   margin-top: 9px;
+// }

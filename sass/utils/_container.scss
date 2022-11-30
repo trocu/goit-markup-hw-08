@@ -4,6 +4,11 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+.l-container--footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 @media screen and (min-width: $tablet) {
   .l-container {
     width: $tablet;

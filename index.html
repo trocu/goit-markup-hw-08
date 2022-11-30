@@ -286,26 +286,16 @@
                   class="c-team__img"
                   src="./images/team1-m.jpg"
                   alt="Product Designer"
-                  srcset="./images/team1-m@2x.jpg 2x"
+                  srcset="
+                    ./images/team1-m.jpg    450w,
+                    ./images/team1-m@2x.jpg 900w,
+                    ./images/team1-t.jpg    354w,
+                    ./images/team1-t@2x.jpg 708w,
+                    ./images/team1-d.jpg    270w,
+                    ./images/team1-d@2x.jpg 540w
+                  "
+                  sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px 100vw"
                 />
-                <!-- <picture>
-                  <source
-                    media="(min-width:1200px)"
-                    srcset="./images/team1-m.jpg 1x, ./images/team1-m@2x.jpg 2x"
-                  />
-                  <source
-                    media="(min-width:768px)"
-                    srcset="./images/team1-m.jpg 1x, ./images/team1-m@2x.jpg 2x"
-                  />
-                  <source
-                    media="(min-width:320px)"
-                    srcset="./images/team1-m.jpg 1x, ./images/team1-m@2x.jpg 2x"
-                  />
-                  <img
-                    src="./images/team1-m.jpg"
-                    alt=""
-                  />
-                </picture> -->
                 <h3 class="c-team__name">John Doe</h3>
                 <p class="c-team__position">Product Designer</p>
                 <div class="c-social-media">
@@ -350,10 +340,17 @@
               <li class="c-team__card">
                 <img
                   class="c-team__img"
-                  src="./images/team2.jpg"
+                  src="./images/team2-m.jpg"
                   alt="Frontend Developer"
-                  width="270"
-                  height="260"
+                  srcset="
+                    ./images/team2-m.jpg    450w,
+                    ./images/team2-m@2x.jpg 900w,
+                    ./images/team2-t.jpg    354w,
+                    ./images/team2-t@2x.jpg 708w,
+                    ./images/team2-d.jpg    270w,
+                    ./images/team2-d@2x.jpg 540w
+                  "
+                  sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px 100vw"
                 />
                 <h3 class="c-team__name">John Doe</h3>
                 <p class="c-team__position">Frontend Developer</p>
@@ -399,10 +396,17 @@
               <li class="c-team__card">
                 <img
                   class="c-team__img"
-                  src="./images/team3.jpg"
+                  src="./images/team3-m.jpg"
                   alt="Marketing"
-                  width="270"
-                  height="260"
+                  srcset="
+                    ./images/team3-m.jpg    450w,
+                    ./images/team3-m@2x.jpg 900w,
+                    ./images/team3-t.jpg    354w,
+                    ./images/team3-t@2x.jpg 708w,
+                    ./images/team3-d.jpg    270w,
+                    ./images/team3-d@2x.jpg 540w
+                  "
+                  sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px 100vw"
                 />
                 <h3 class="c-team__name">John Doe</h3>
                 <p class="c-team__position">Marketing</p>
@@ -448,10 +452,17 @@
               <li class="c-team__card">
                 <img
                   class="c-team__img"
-                  src="./images/team4.jpg"
+                  src="./images/team4-m.jpg"
                   alt="UI Designer"
-                  width="270"
-                  height="260"
+                  srcset="
+                    ./images/team4-m.jpg    450w,
+                    ./images/team4-m@2x.jpg 900w,
+                    ./images/team4-t.jpg    354w,
+                    ./images/team4-t@2x.jpg 708w,
+                    ./images/team4-d.jpg    270w,
+                    ./images/team4-d@2x.jpg 540w
+                  "
+                  sizes="(max-width: 767px) 450px, (min-width: 768px) 354px, (min-width: 1200px) 270px 100vw"
                 />
                 <h3 class="c-team__name">John Doe</h3>
                 <p class="c-team__position">UI Designer</p>
@@ -500,7 +511,7 @@
       </section>
 
       <!-- Clients section -->
-      <section class="l-section">
+      <section class="l-section l-section--tablet-padding">
         <div class="l-container">
           <h2 class="c-section-title">Nasi klienci</h2>
           <div class="c-clients">
@@ -791,6 +802,7 @@
             data-modal-close
           >
             <svg
+              class="c-close-btn__icon"
               width="18"
               height="18"
             >
