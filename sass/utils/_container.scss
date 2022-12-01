@@ -1,7 +1,7 @@
 .l-container {
   box-sizing: border-box;
   width: 100%;
-  max-width: 450px;
+  max-width: 480px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -23,7 +23,8 @@
 }
 @media screen and (min-width: $desktop) {
   .l-container {
-    width: $desktop;
+    box-sizing: border-box;
+    max-width: $desktop;
   }
 }
 // .l-container {
