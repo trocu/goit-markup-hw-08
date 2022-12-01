@@ -36,6 +36,12 @@
   margin-top: 8px;
 }
 
+@media screen and (min-width: $tablet) {
+  .l-adress-stack {
+    padding-bottom: 0;
+  }
+}
+
 // .c-footer {
 //   &--color {
 //     background: $dark-background;

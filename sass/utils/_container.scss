@@ -1,6 +1,7 @@
 .l-container {
   box-sizing: border-box;
   width: 100%;
+  max-width: 450px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -11,7 +12,13 @@
 }
 @media screen and (min-width: $tablet) {
   .l-container {
-    width: $tablet;
+    width: 100%;
+    max-width: $tablet;
+  }
+  .l-container--footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: $desktop) {

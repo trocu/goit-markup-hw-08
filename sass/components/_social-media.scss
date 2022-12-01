@@ -38,6 +38,12 @@
   text-transform: uppercase;
 }
 
+@media screen and (min-width: $tablet) {
+  .c-footer-social-media {
+    padding-top: 65px;
+  }
+}
+
 // // Team section
 // .c-social-media {
 //   display: flex;
