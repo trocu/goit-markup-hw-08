@@ -14,6 +14,19 @@
   max-width: 365px;
   margin: 0px auto 30px;
 }
+@media screen and (min-width: $desktop) {
+  .c-slider {
+    padding: 106px 0;
+  }
+  .c-slider__title {
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    max-width: 100%;
+    width: 696px;
+    margin: 0 auto 30px;
+  }
+}
 // .c-slider {
 //   padding: 106px 0;
 // }

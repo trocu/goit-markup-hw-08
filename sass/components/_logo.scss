@@ -35,7 +35,12 @@
     color: $brand-color;
   }
 }
-
+@media screen and (min-width: $desktop) {
+  .c-logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
 // .c-logo {
 //   text-decoration: none;
 //   font-family: Raleway;

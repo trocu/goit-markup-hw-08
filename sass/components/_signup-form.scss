@@ -32,8 +32,12 @@
   fill: $white-item;
 }
 @media screen and (min-width: $tablet) {
+  .l-form-stack {
+    width: 100%;
+  }
   .c-signup-form__input {
-    width: 450px;
+    min-width: 450px;
+    width: 100%;
   }
 }
 

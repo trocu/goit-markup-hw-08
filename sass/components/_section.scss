@@ -55,7 +55,26 @@
       url("../images/cover-t@2x.jpg");
   }
 }
-
+@media screen and (min-width: $desktop) {
+  .l-section {
+    padding-block: 94px;
+  }
+  .l-section--slider {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url("../images/cover-d.jpg"); /* fallback */
+    background-image: linear-gradient(rgba(47 48 58 / 0.4), rgba(47 48 58 / 0.4)),
+      url("../images/cover-d.jpg");
+  }
+}
+@media screen and (min-width: $tablet) and (min-device-pixel-ratio: 2),
+  screen and (min-width: $tablet) and (min-resolution: 192dpi),
+  screen and (min-width: $tablet) and (min-resolution: 2dppx) {
+  .l-section--slider {
+    background-image: linear-gradient(rgba(47 48 58 / 0.4), rgba(47 48 58 / 0.4)),
+      url("../images/cover-d@2x.jpg");
+  }
+}
 // .l-section {
 //   padding-block: 94px;
 // }

@@ -36,9 +36,33 @@
       fill: $brand-color;
     }
   }
-  .c-contact-list__icon--tablet-ver {
+  .c-contact-list__icon--custom-size {
     width: 10px;
     height: 14px;
+  }
+}
+@media screen and (min-width: $desktop) {
+  .c-contact-list {
+    display: inline;
+  }
+  .c-contact-list__item {
+    display: inline;
+    &:first-child {
+      margin-right: 50px;
+      margin-bottom: 0;
+    }
+  }
+  .c-contact-list__link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .c-contact-list__icon {
+    width: 16px;
+    height: 12px;
+  }
+  .c-contact-list__icon--custom-size {
+    width: 10px;
+    height: 16px;
   }
 }
 // .c-contact-list {

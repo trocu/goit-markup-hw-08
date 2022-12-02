@@ -73,6 +73,17 @@
     }
   }
 }
+@media screen and (min-width: $desktop) {
+  .c-nav {
+    justify-content: left;
+    margin-left: 83px;
+  }
+  .c-menu__link--active {
+    &::after {
+      bottom: -32.5px;
+    }
+  }
+}
 // .c-nav {
 //   flex-grow: 1;
 // }

@@ -16,6 +16,12 @@
     padding-left: 0;
   }
 }
+@media screen and (min-width: $desktop) {
+  .c-header__body {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
 // .c-header {
 //   border-bottom: 1px solid;
 //   border-color: $header-line;
