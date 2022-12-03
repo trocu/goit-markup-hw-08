@@ -40,6 +40,12 @@
     width: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: $desktop) {
+  .c-team__card {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+}
+
 // .c-team {
 //   display: flex;
 //   flex-wrap: wrap;

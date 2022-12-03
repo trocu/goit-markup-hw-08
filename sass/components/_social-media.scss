@@ -43,7 +43,12 @@
     padding-top: 65px;
   }
 }
-
+@media screen and (min-width: $desktop) {
+  .c-footer-social-media {
+    padding-top: 72px;
+    padding-bottom: 100px;
+  }
+}
 // // Team section
 // .c-social-media {
 //   display: flex;

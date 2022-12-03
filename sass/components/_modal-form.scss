@@ -77,6 +77,12 @@
     border: 1px solid $brand-color;
   }
 }
+@media screen and (min-width: $desktop) {
+  .l-modal-stack {
+    max-width: 100%;
+    min-width: 528px;
+  }
+}
 // .l-modal-stack {
 //   padding: 40px;
 //   width: 100%;

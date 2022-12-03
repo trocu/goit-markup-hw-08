@@ -58,7 +58,27 @@
   letter-spacing: 0.03em;
   color: $brand-color;
 }
-
+@media screen and (min-width: $desktop) {
+  // Style for the statement section
+  .c-custom-checkbox__text {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
+  // Style for custom checkbox
+  .c-custom-checkbox__body {
+    top: 2px;
+    left: 16px;
+  }
+  // Style for the statement section
+  .c-custom-checkbox__text {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
+  .c-custom-checkbox__link {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
+}
 // .c-custom-checkbox {
 //   position: relative;
 //   display: flex;

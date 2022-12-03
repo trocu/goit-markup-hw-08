@@ -45,6 +45,12 @@ ul {
   .l-container {
     max-width: 1200px;
   }
+  .l-container--footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
 }
 .l-section {
   padding-block: 60px;
@@ -111,8 +117,14 @@ ul {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/cover-d.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/cover-d.jpg");
   }
+  .l-section--no-top-padding {
+    display: block;
+    opacity: 1;
+    padding-top: 0;
+    padding-bottom: 94px;
+  }
 }
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .l-section--slider {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/cover-d@2x.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/cover-d@2x.jpg");
@@ -524,6 +536,11 @@ ul {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .signup-form__c-button {
+    margin-top: 0;
+  }
+}
 .c-logo {
   text-decoration: none;
   font-family: Raleway;
@@ -624,6 +641,12 @@ ul {
     padding-top: 65px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .c-footer-social-media {
+    padding-top: 72px;
+    padding-bottom: 100px;
+  }
+}
 .c-slider {
   padding: 58px 0;
 }
@@ -706,10 +729,17 @@ ul {
 @media screen and (min-width: 768px) {
   .c-offer__item {
     width: 100%;
-    width: calc((100% - 30px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
   }
   .c-offer__title {
     text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .c-offer__item {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
   }
 }
 .c-use-case {
@@ -807,6 +837,12 @@ ul {
     width: calc((100% - 30px) / 2);
   }
 }
+@media screen and (min-width: 1200px) {
+  .c-team__card {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
+}
 .c-clients {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -852,7 +888,14 @@ ul {
     width: 100%;
   }
   .c-clients__link {
-    width: calc((100% - 60px) / 3);
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .c-clients__link {
+    -ms-flex-preferred-size: calc((100% - 150px) / 6);
+        flex-basis: calc((100% - 150px) / 6);
   }
 }
 .c-footer--color {
@@ -902,6 +945,12 @@ ul {
     padding-bottom: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .l-adress-stack {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .l-form-stack {
   padding-block: 60px;
 }
@@ -948,6 +997,19 @@ ul {
   .c-signup-form__input {
     min-width: 450px;
     width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .l-form-stack {
+    width: auto;
+    padding-top: 72px;
+    padding-bottom: 100px;
+  }
+  .c-signup-form__input {
+    display: inline;
+    width: 358px;
+    min-width: auto;
+    margin-right: 12px;
   }
 }
 .c-portfolio-filter__body {
@@ -1227,6 +1289,12 @@ ul {
   border: 1px solid #2196f3;
 }
 
+@media screen and (min-width: 1200px) {
+  .l-modal-stack {
+    max-width: 100%;
+    min-width: 528px;
+  }
+}
 .c-custom-checkbox {
   position: relative;
   display: -webkit-box;
@@ -1295,6 +1363,24 @@ ul {
   color: #2196f3;
 }
 
+@media screen and (min-width: 1200px) {
+  .c-custom-checkbox__text {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
+  .c-custom-checkbox__body {
+    top: 2px;
+    left: 16px;
+  }
+  .c-custom-checkbox__text {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
+  .c-custom-checkbox__link {
+    font-size: 14px;
+    line-height: 1.71px;
+  }
+}
 .c-close-btn {
   position: absolute;
   top: 8px;

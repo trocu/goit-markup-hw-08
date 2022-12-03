@@ -23,6 +23,10 @@
   .l-container {
     max-width: 1200px;
   }
+  .l-container--footer {
+    justify-content: space-between;
+    text-align: left;
+  }
 }
 // .l-container {
 //   box-sizing: border-box;

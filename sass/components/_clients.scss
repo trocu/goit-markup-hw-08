@@ -34,7 +34,12 @@
     width: 100%;
   }
   .c-clients__link {
-    width: calc((100% - 60px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: $desktop) {
+  .c-clients__link {
+    flex-basis: calc((100% - 150px) / 6);
   }
 }
 // .c-clients {

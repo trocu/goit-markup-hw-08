@@ -41,7 +41,12 @@
     padding-bottom: 0;
   }
 }
-
+@media screen and (min-width: $desktop) {
+  .l-adress-stack {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 // .c-footer {
 //   &--color {
 //     background: $dark-background;

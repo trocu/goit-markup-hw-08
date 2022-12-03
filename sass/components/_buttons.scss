@@ -37,7 +37,12 @@
   display: block;
   margin: 0 auto;
 }
-
+@media screen and (min-width: $desktop) {
+  // Footer button
+  .signup-form__c-button {
+    margin-top: 0;
+  }
+}
 // .c-button {
 //   color: $white-item;
 //   background-color: $brand-color;

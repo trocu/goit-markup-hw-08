@@ -40,6 +40,19 @@
     width: 100%;
   }
 }
+@media screen and (min-width: $desktop) {
+  .l-form-stack {
+    width: auto;
+    padding-top: 72px;
+    padding-bottom: 100px;
+  }
+  .c-signup-form__input {
+    display: inline;
+    width: 358px;
+    min-width: auto;
+    margin-right: 12px;
+  }
+}
 
 // .l-form-stack {
 //   padding-block: 60px;
