@@ -13,7 +13,7 @@
   border-color: $icon-logo-color;
   border-radius: 4px;
   cursor: pointer;
-  width: calc((100% - 30px) / 2);
+  flex-basis: calc((100% - 30px) / 2);
   min-width: 140px;
   fill: $icon-logo-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -42,26 +42,3 @@
     flex-basis: calc((100% - 150px) / 6);
   }
 }
-// .c-clients {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-//   gap: 30px;
-// }
-// .c-clients__link {
-//   display: inline-block;
-//   border: 1px solid;
-//   border-color: $icon-logo-color;
-//   border-radius: 4px;
-//   cursor: pointer;
-//   width: 170px;
-//   height: 92px;
-//   fill: $icon-logo-color;
-//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   &:hover,
-//   &:focus {
-//     border-color: $brand-color;
-//     fill: $brand-color;
-//   }
-// }

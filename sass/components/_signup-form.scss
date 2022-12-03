@@ -35,10 +35,6 @@
   .l-form-stack {
     width: 100%;
   }
-  .c-signup-form__input {
-    min-width: 450px;
-    width: 100%;
-  }
 }
 @media screen and (min-width: $desktop) {
   .l-form-stack {
@@ -49,7 +45,6 @@
   .c-signup-form__input {
     display: inline;
     width: 358px;
-    min-width: auto;
     margin-right: 12px;
   }
 }

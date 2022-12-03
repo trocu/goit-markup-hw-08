@@ -1,9 +1,9 @@
 .c-use-case {
+  @include nodot;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  @include nodot;
 }
 .c-use-case__item {
   flex-basis: calc((100% - 60px) / 3);

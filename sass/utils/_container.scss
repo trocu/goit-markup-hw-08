@@ -21,21 +21,10 @@
 }
 @media screen and (min-width: $desktop) {
   .l-container {
-    max-width: 1200px;
+    max-width: $desktop;
   }
   .l-container--footer {
     justify-content: space-between;
     text-align: left;
   }
 }
-// .l-container {
-//   box-sizing: border-box;
-//   max-width: 1200px;
-//   width: 100%;
-//   padding: 0 15px;
-//   margin: 0 auto;
-// }
-// .l-container--footer {
-//   display: flex;
-//   justify-content: space-between;
-// }

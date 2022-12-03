@@ -1,9 +1,9 @@
 .c-team {
+  @include nodot;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  @include nodot;
 }
 .c-team__card {
   width: 100%;
@@ -45,38 +45,3 @@
     flex-basis: calc((100% - 90px) / 4);
   }
 }
-
-// .c-team {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-//   gap: 30px;
-//   @include nodot;
-// }
-// .c-team__card {
-//   padding-bottom: 30px;
-//   background: $white-item;
-//   box-shadow: 0px 1px 3px rgba(0 0 0 / 0.12), 0px 1px 1px rgba(0 0 0 / 0.14),
-//     0px 2px 1px rgba(0 0 0 / 0.2);
-//   border-radius: 0px 0px 4px 4px;
-//   flex-basis: calc((100% - 90px) / 4);
-// }
-// .c-team__img {
-//   margin-bottom: 30px;
-// }
-// .c-team__name {
-//   margin: 0 0 10px;
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 1.18;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-// }
-// .c-team__position {
-//   margin: 0 0 16px;
-//   font-size: 16px;
-//   line-height: 1.18;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-//   color: $light-txt-color;
-// }
