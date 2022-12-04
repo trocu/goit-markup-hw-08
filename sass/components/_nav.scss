@@ -1,7 +1,5 @@
-.c-menu {
-  display: none;
-}
 .c-nav {
+  display: none;
   line-height: 0;
 }
 .c-nav__button {
@@ -25,15 +23,14 @@
 @media screen and (min-width: $tablet) {
   .c-menu {
     @include nodot;
-    display: block;
   }
   .c-nav__button {
     display: none;
     opacity: 0;
   }
   .c-nav {
-    flex: 2;
     display: flex;
+    flex: 2;
     justify-content: center;
   }
   .c-menu__item {
@@ -76,7 +73,7 @@
 @media screen and (min-width: $desktop) {
   .c-nav {
     justify-content: left;
-    margin-left: 83px;
+    padding-left: 83px;
   }
   .c-menu__link--active {
     &::after {

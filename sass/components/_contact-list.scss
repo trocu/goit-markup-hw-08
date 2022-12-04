@@ -1,10 +1,12 @@
-.c-contact-list {
+.l-contact-stack {
   display: none;
 }
 @media screen and (min-width: $tablet) {
+  .l-contact-stack {
+    display: block;
+  }
   .c-contact-list {
     @include nodot;
-    display: block;
   }
   .c-contact-list__item:first-of-type {
     margin-bottom: 5px;
@@ -42,9 +44,6 @@
   }
 }
 @media screen and (min-width: $desktop) {
-  .c-contact-list {
-    display: inline;
-  }
   .c-contact-list__item {
     display: inline;
     &:first-child {
